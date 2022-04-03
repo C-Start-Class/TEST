@@ -3,7 +3,7 @@
 int main()
 {
     int n;
-    int count = 0;
+    int count = 2;
     printf("Nhap gia tri n: ");
     scanf("%d",&n);
     int max = 1;
