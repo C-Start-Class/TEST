@@ -3,12 +3,11 @@
 int main()
 {
     int n;
-    nhap:
+    while(1){
     printf("Nhap gia tri cua n: ");
     scanf("%d",&n);
     if(n==0){
-        printf("0 khong hop le moi ban nhap lai\n");
-        goto nhap;
+        break;
     }
     for(int i = 2; i<n;i++){
         if(n%i==0){
@@ -18,5 +17,6 @@ int main()
         
     }
     printf("%d la so nguyen to\n",n);
-    end: return 0;
+    end:printf("\n");
+    }
 }
