@@ -19,12 +19,7 @@ int main()
             }
         }
     }
-    if(count==0){
-        printf("%d la so nguyen to",n);
-    }
-    else{
         printf("%d co %d uoc so\n",n,count);
         printf("uoc so lon nhat la %d\n",max);
         printf("uoc so nho nhat la %d\n",min);
-    }
 }
