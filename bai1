@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    nhap:
+    printf("Nhap gia tri cua n: ");
+    scanf("%d",&n);
+    if(n==0){
+        printf("0 khong hop le moi ban nhap lai\n");
+        goto nhap;
+    }
+    for(int i = 2; i<n;i++){
+        if(n%i==0){
+            printf("%d khong phai la so nguyen to\n",n);
+            goto end;
+        }
+        
+    }
+    printf("%d la so nguyen to\n",n);
+    end: return 0;
+}
