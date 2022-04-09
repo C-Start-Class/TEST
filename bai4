@@ -19,7 +19,12 @@ int main()
             }
         }
     }
+    if(count==2||n==1){
+        printf("%d khong co uoc so thoa man yeu cau de bai",n);
+    }
+    else{
         printf("%d co %d uoc so\n",n,count);
         printf("uoc so lon nhat cua %d la %d\n",n,max);
         printf("uoc so nho nhat cua %d la %d\n",n,min);
+}
 }
